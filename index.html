@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLS: Flap demonstration token</title>
+    <link rel="stylesheet" href="./common/normalize.min.css">
+    <link rel="stylesheet" href="./common/index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css" />
+    <!-- <link rel="stylesheet" href="./css/indexMobile.css"> -->
+    <link rel="icon" href="./assets/img/logo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.min.js"></script>
+    <script src="./utils/jqeury.min.js"></script>
+    <script src="./js/listenSize.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <div id="index_page">
+        <!-- <div class="banner_bg"></div> -->
+        <div class="nav flex a-center">
+            <div class="nav_logo_info flex a-center">
+                <!-- <img src="./assets/img/nav_avatar.jpg"> -->
+                <!-- <span>clifford</span> -->
+                <img src="./assets/img/nav_title.png">
+            </div>
+            <div class="nav_logo_link flex a-center">
+                <a class="pointer" href="#home">home</a>
+                <a class="pointer" href="#about">about</a>
+                <a class="pointer" href="#memes">memes</a>
+                <a class="pointer" href="#community">community</a>
+            </div>
+            <!-- <div class="nav_logo_link_about flex column a-center pointer">
+                <img src="./assets/img/nav_link_pc.png">
+                <span>Clifford Dapp</span>
+            </div> -->
+            <div class="nav_logo_link_icon flex a-center">
+                <img src="./assets/img/Twitter.png" class="pointer twitter">
+                <img src="./assets/img/Vector.png" class="pointer join_us">
+            </div>
+        </div>
+        <div class="banner" id="home">
+            <div class="banner_text_box flex column">
+                <div>TLS</div>
+                <div>Wealth management revolution</div>
+                <div>MemeFi</div>
+                <div>It can continuously generate real DeFi returns even without transactions.</div>
+                <div class="flex a-center">
+                    <div class="buy_btn buy_now flex a-center jc-center pointer">
+                        <span>buy now</span>
+                        <img src="./assets/img/rabbit.png">
+                    </div>
+                    <div class="join_us_btn join_us flex a-center jc-center pointer">
+                        <span>Join us</span>
+                        <img src="./assets/img/btn_vector.png">
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="banner_bg"></div> -->
+            <!-- <div class="banner_bg_color"></div> -->
+        </div>
+        
+        <div class="content flex column a-center" id="about">
+            <div class="tokenomics_section">
+                <div class="tokenomics_title">Tokenomics</div>
+                <div class="tokenomics_subtitle">Every transaction helps us grow</div>
+    
+                <div class="tokenomics_card tokenomics_tax_card">
+                    <div class="tokenomics_card_label">TAX RATE</div>
+                    <div class="tokenomics_tax_value">
+                        <span class="buy_text">Buy 2%</span>
+                        <span class="divider">|</span>
+                        <span class="sell_text">Sell 3%</span>
+                    </div>
+                </div>
+    
+                <div class="tokenomics_grid">
+                    <div class="tokenomics_card tokenomics_half_card">
+                        <div class="tokenomics_card_label">DIVIDEND</div>
+                        <div class="tokenomics_half_content">
+                            <div class="tokenomics_percent">90%</div>
+                            <div class="tokenomics_desc">Users holding 10,000 tokens are eligible for dividends.</div>
+                        </div>
+                    </div>
+                    <div class="tokenomics_card tokenomics_half_card">
+                        <div class="tokenomics_card_label">LP REFULX</div>
+                        <div class="tokenomics_half_content">
+                            <div class="tokenomics_percent">10%</div>
+                            <div class="tokenomics_desc">The reflux of the pool is the eternal value support.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tokenomics_tip pointer">Click to FLAP for details →</div>
+            </div>
+            <div class="tokenomics_partner_bar"></div>
+            <div class="collaboration_box">
+                <div class="collaboration_title">Collaboration among ecological teams</div>
+                <div class="collaboration_text">
+                    <p>The MemeFi mechanism jointly launched by FLAP and Lista DAO endows TLS with both the strong social dissemination power of Meme and the real returns and stable underlying of DeFi.</p>
+                    <p>Relying on the BNB Chain ecosystem and Lista DAO's liquid staking and DeFi infrastructure, and combining FLAP's dynamic growth - type financial management model for basic users, including platform auto - launch and pool - building, trading fee dividends, and LP pool reflux, it not only addresses the pain points of traditional Meme coins such as unstable liquidity and lack of practical application scenarios, but also through the tilt of ecological resources, on - chain real returns, and continuous value support, forms a closed loop of "cultural dissemination + financial returns + value support".</p>
+                    <p>This mechanism can still build high consensus, activate the community, and achieve sustainable growth even in a bear market, combining short - term explosive power with long - term value support.</p>
+                </div>
+            </div>
+            <div class="memes_section" id="memes">
+                <div class="memes_section_box">
+                    <div class="memes_title">Our best Memes</div>
+                    <div class="memes_subtitle">Original from the TLS community</div>
+                    <div class="memes_grid">
+                        <div class="memes_row memes_row_1"></div>
+                        <div class="memes_row memes_row_2"></div>
+                        <div class="memes_row memes_row_3"></div>
+                        <div class="memes_row memes_row_4"></div>
+                    </div>
+                    <div class="memes_more pointer">Go to the community to view more →</div>
+                </div>
+            </div>
+            <div class="community_section">
+                <div class="community_box">
+                    <div class="community_title">Integration of online and offline communities</div>
+                    <div class="community_text">
+                        <p>TLS adopts an integrated online - offline community operation model. The online community, a hub for communication, information sharing, and consensus - building, maintains high - frequency interaction.</p>
+                        <p>Meanwhile, we're actively developing offline communities, hosting exchange events to connect holders and investors. The two - pronged approach works in tandem: online to expand influence and convey value, offline to strengthen trust and gather momentum, thus solidifying community consensus and laying a solid groundwork for the project's long - term development.</p>
+                    </div>
+                    <div class="community_buttons">
+                        <a class="community_btn pointer" href="https://pancakeswap.finance/swap?outputCurrency=0x0598075dc4d1c9484daa80c62313aad39fc77777" target="_blank" rel="noopener noreferrer"></a>
+                        <a class="community_btn pointer" href="https://www.gate.com/alpha/bsc-0x0598075dc4d1c9484daa80c62313aad39fc77777" target="_blank" rel="noopener noreferrer"></a>
+                        <a class="community_btn pointer" href="https://pro.ave.ai/token/0x0598075dc4d1c9484daa80c62313aad39fc77777-bsc" target="_blank" rel="noopener noreferrer"></a>
+                        <a class="community_btn pointer" href="https://dexscreener.com/bsc/0x5BBF6458522a7C2F33415944E9EBacD0652d5c9A" target="_blank" rel="noopener noreferrer"></a>
+                        <a class="community_btn pointer" href="https://www.tokenpocket.pro/en/download/app" target="_blank" rel="noopener noreferrer"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info flex">
+            <div class="video flex a-cneter pointer open_video_popup">
+                <img class="video_cover" src="./assets/video/video_bg.png" alt="video cover">
+                <div class="video_play_icon"></div>
+            </div>
+            <div class="info_content">
+                <div class="info_content_text">Flap.sh founder & CEO showed $TLS token issuance at 
+                    YZi Labs EASY Residency S3 Demo Day. </br>
+                    $TLS, with founder - image logo, differs from meme coins, stressing official deployment.</div>
+                <div class="info_content_link_copy flex a-center jc-center">
+                    <span>CA:  0x0598075dc4d1c9484daa80c62313aad39fc77777</span>
+                    <img src="./assets/img/copy.png" class="info_content_copy pointer">
+                </div>
+            </div>
+        </div>
+        <div class="video_popup_mask">
+            <div class="video_popup_box">
+                <div class="video_popup_close pointer"></div>
+                <video id="popup_player" playsinline controls poster="./assets/video/video_bg.png">
+                    <source src="./assets/video/video.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+        <div class="community_banner">
+        </div>
+        <!-- <div class="related_links">
+            <div class="related_links_bg"></div>
+            <div class="related_links_content flex column a-center">
+                <div>keep building</div>
+                <div>on bnb chain</div>
+                <div class="link_btns_box">
+                    <div class="link_btns_box_item four_link">
+                        <img src="./assets/img/four.png">
+                    </div>
+                    <div class="link_btns_box_item buy_now">
+                        <img src="./assets/img/PancakeSwap.png">
+                    </div>
+                    <div class="link_btns_box_item dex_link">
+                        <img src="./assets/img/dex.png">
+                    </div>
+                    <div class="link_btns_box_item dextools_link">
+                        <img src="./assets/img/dextools.png">
+                    </div>
+                    <div class="link_btns_box_item ave_link">
+                        <img src="./assets/img/ave.png">
+                    </div>
+                    <div class="link_btns_box_item bnb_link">
+                        <img src="./assets/img/bnb1.png">
+                        <img src="./assets/img/bnb_text.png">
+                    </div>
+                    <div class="link_btns_box_item wellet_link">
+                        <img src="./assets/img/wallet.png">
+                    </div>
+                    <div class="link_btns_box_item binance_link">
+                        <img src="./assets/img/binance.png">
+                    </div>
+                    <div class="link_btns_box_item tp_link">
+                        <img src="./assets/img/TP.png">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="footer flex a-center" id="community">
+            <div class="footer_logo_info flex a-center">
+                <!-- <img src="./assets/img/footer_avatar.jpg"> -->
+                <!-- <span>clifford</span> -->
+                <img src="./assets/img/bottom_title.png">
+            </div>
+            <!-- <div class="footer_text">This website is made by community volunteers. For viewing only, not investment advice.
+            </div> -->
+            <div class="footer_logo_link_icon flex a-center">
+                <img src="./assets/img/Twitter.png" class="pointer twitter">
+                <img src="./assets/img/Vector.png" class="pointer join_us">
+            </div>
+        </div>
+        <!-- <div class="be_about_to_mask">
+            <div class="be_about_to">
+                <img src="./assets/img/close_pc.png" class="close pointer">
+                <div class="be_about_to_bg"></div>
+                <div class="be_about_to_bg_blank flex a-center jc-center">
+                    <span>coming soon...</span>
+                </div>
+                <img src="./assets/img/dialog_logo_pc.png" class="logo">
+            </div>
+        </div> -->
+    </div>
+</body>
+
+</html>

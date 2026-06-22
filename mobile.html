@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>CLIFFORD</title>
+    <link rel="stylesheet" href="./common/normalize.min.css">
+    <link rel="stylesheet" href="./common/index.css">
+    <link rel="stylesheet" href="./css/indexMobile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.min.js"></script>
+    <script src="./utils/jqeury.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/listenSize.js"></script>
+</head>
+
+<body>
+    <div id="index_page">
+        <div class="more_list_mask"></div>
+        <div class="nav flex a-center">
+            <div class="nav_logo_info flex a-center">
+                <!-- <img src="./assets/img/nav_avatar.jpg"> -->
+                <!-- <span>clifford</span> -->
+                <img src="./assets/img/nav_title.png">
+            </div>
+            <div class="nav_logo_link_icon flex a-center">
+                <img src="./assets/img/Twitter.png" class="pointer twitter">
+                <img src="./assets/img/Vector.png" class="pointer join_us">
+                <img src="./assets/img/more_mobile.png" class="pointer nav_more">
+                <img src="./assets/img/close_mobile.png" class="pointer nav_close">
+            </div>
+            <div class="more_list flex column a-center">
+                <a class="pointer" href="#home">home</a>
+                <a class="pointer" href="#about">about</a>
+                <a class="pointer" href="#memes">memes</a>
+                <a class="pointer" href="#community">community</a>
+                <div class="nav_logo_link_about flex column a-center jc-center pointer">
+                    <img src="./assets/img/nav_link_pc.png">
+                    <span>Clifford Dapp</span>
+                </div>
+            </div>
+        </div>
+        <div class="banner" id="home">
+            <div class="banner_text_box flex column">
+                <div>this is</div>
+                <div>clifford</div>
+            </div>
+            <!-- <div>It is poised to emerge as a pivotal memecoin within the BNB Chain ecosystem.</div> -->
+            <!-- <div class="flex a-center">
+        <div class="buy_btn buy_now flex a-center jc-center pointer">
+          <span>buy now</span>
+          <img src="./assets/img/rabbit.png">
+        </div>
+        <div class="join_us_btn join_us flex a-center jc-center pointer">
+          <span>Join us</span>
+          <img src="./assets/img/Vector.png">
+        </div>
+      </div> -->
+            <div class="banner_bg"></div>
+            <div class="banner_bg_color"></div>
+        </div>
+        <div class="content flex column a-center" id="about">
+            <div class="tip">It is poised to emerge as a pivotal memecoin within the BNB Chain ecosystem.</div>
+            <div class="buy_btn buy_now flex a-center jc-center pointer">
+                <span>buy now</span>
+                <img src="./assets/img/rabbit.png">
+            </div>
+            <div class="info flex column a-center">
+                <div class="icons flex a-cneter">
+                    <img src="./assets/img/content_info_one.png">
+                    <img src="./assets/img/content_info_two.png">
+                    <img src="./assets/img/content_info_three.png">
+                </div>
+                <div class="info_content">
+                    <div class="info_content_text">We launched fairly on the Four.meme platform and boast an extremely united and active community. Rooted in BNB Chain, we keep building and will never give up.</div>
+                    <div class="info_content_link_copy flex a-center jc-center">
+                        <span>0x9cb3ab4fb21cf910da2ce6800753dbd866784444</span>
+                        <img src="./assets/img/copy.png" class="info_content_copy pointer">
+                    </div>
+                </div>
+            </div>
+            <div class="content_video flex column a-center">
+                <video id="player" playsinline controls data-poster="./assets/video/video_bg.png">
+                <source src="./assets/video/video.mp4" type="video/mp4" />
+              </video>
+                <div class="content_video_tip flex column a-center pointer">
+                    <img src="./assets/img/youtube.svg">
+                    <span>Click to enter our YouTube channel 
+                  to watch more interesting videos</span>
+                </div>
+            </div>
+            <div class="info_title">
+                Our best memes
+            </div>
+            <div class="info_sub_title">
+                All the creations are from the community
+            </div>
+            <div class="grid_box" id="memes">
+                <img src="./assets/img/grid_one.jpg">
+                <img src="./assets/img/grid_two.jpg">
+                <img src="./assets/img/grid_five.jpg">
+                <img src="./assets/img/grid_six.jpg">
+                <img src="./assets/img/grid_nine.jpg">
+                <img src="./assets/img/grid_ten.jpg">
+                <img src="./assets/img/grid_three.jpg">
+                <img src="./assets/img/grid_four.jpg">
+                <img src="./assets/img/grid_seven.jpg">
+                <img src="./assets/img/grid_eight.jpg">
+                <img src="./assets/img/grid_eleven.jpg">
+                <img src="./assets/img/grid_twelve.jpg">
+            </div>
+            <div class="show_more pointer">
+                Show more →
+            </div>
+            <div class="content_footer_bg_box">
+                <div class="content_footer_bg"></div>
+                <div class="content_footer_tip">
+                    <div>keep building</div>
+                    <div>on bnb chain</div>
+                </div>
+            </div>
+        </div>
+        <div class="related_links">
+            <div class="related_links_content flex column a-center">
+                <div class="link_btns_box">
+                    <div class="link_btns_box_item four_link">
+                        <img src="./assets/img/four.png">
+                    </div>
+                    <div class="link_btns_box_item dex_link">
+                        <img src="./assets/img/dex.png">
+                    </div>
+                    <div class="link_btns_box_item buy_now">
+                        <img src="./assets/img/PancakeSwap.png">
+                    </div>
+                    <div class="link_btns_box_item dextools_link">
+                        <img src="./assets/img/dextools.png">
+                    </div>
+                    <div class="link_btns_box_item ave_link">
+                        <img src="./assets/img/ave.png">
+                    </div>
+                    <div class="link_btns_box_item wellet_link">
+                        <img src="./assets/img/wallet_mobile.png">
+                    </div>
+                    <!-- <div class="link_btns_box_item bnb_link">
+            <img src="./assets/img/bnb1.png">
+            <img src="./assets/img/bnb_text.png">
+          </div> -->
+                    <div class="link_btns_box_item tp_link">
+                        <img src="./assets/img/TP.png">
+                    </div>
+                    <div class="link_btns_box_item binance_link">
+                        <img src="./assets/img/binance.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer flex column a-center" id="community">
+            <div class="footer_logo_info flex a-center">
+                <img src="./assets/img/footer_logo_mobile.png">
+            </div>
+            <div class="footer_text">This website is made by community volunteers. For viewing only, not investment advice.
+            </div>
+            <div class="footer_logo_link_icon flex a-center">
+                <img src="./assets/img/Twitter.png" class="pointer twitter">
+                <img src="./assets/img/Vector.png" class="pointer join_us">
+            </div>
+        </div>
+        <div class="be_about_to_mask">
+            <div class="be_about_to">
+                <img src="./assets/img/close_pc.png" class="close pointer">
+                <div class="be_about_to_bg"></div>
+                <div class="be_about_to_bg_blank flex a-center jc-center">
+                    <span>coming soon...</span>
+                </div>
+                <img src="./assets/img/dialog_logo_pc.png" class="logo">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
